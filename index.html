@@ -393,31 +393,8 @@
 </div>
 </a>
 
-<script>
-     function sendEmail() {
-            Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "codewithdhruvinpatel@gmail.com",
-    Password : "D586076099D19D4D069A41BC31B6CA20EF4D",
-    To : 'codewithdhruvinpatel@gmail.com',
-    From : "codewithdhruvinpatel@gmail.com",
-    Subject : document.getElementById("exampleFormControlInput3").value,
-    Body : `
-    Name: ${document.getElementById("exampleFormControlInput1").value} <br>
-    Email: ${document.getElementById("exampleFormControlInput2").value} <br>
-    Message: ${document.getElementById("exampleFormControlTextarea4").value} <br>
 
-    `
-}).then(
-  message => alert("Email Not Sent W'll Be Back Soon , Mail Us At codewithdhruvinpatel@gmail.com")
-);
-
-
-        }
-</script>
-    <script src="script.js">
-     document.getElementById("year").innerHTML = new Date().getFullYear();
-</script>
+    <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
