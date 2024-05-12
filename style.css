@@ -1,0 +1,513 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background-image:url(./desktop-wallpaper-colorful-waves-flow-for-macbook-pro.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.part2{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 3050px;
+  width: 100vw;
+}
+
+.about-me{
+    margin-top: 100px;
+}
+
+  .rounded{
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+
+  .img-txt{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .img-txt-2{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+#about-me-detail{
+    margin-top: 100px;
+}
+
+.logos{
+    
+    display:flex;
+    justify-content: center;
+   
+}
+.logos > svg{
+    height: 30px;
+    width: 30px;
+    margin: 30px;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+
+.abc{
+    color: #fff;
+  }
+  
+  .typed-text {
+    color: #fff;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background:white;
+  }
+  
+  .cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+  }
+
+  .btn-light{
+    height: 30px;
+    width: auto;
+    margin: 30px;
+    justify-content: space-evenly;
+    outline: none;
+    border: none;
+    border-radius: 5px;    
+  }
+  
+  .skills{
+    
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    height: 82vh;
+    width: 800px;
+    border-radius: 30px;
+  }
+
+  .skill-txt{
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .radial-01 {
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+    padding-top: 40px;
+    border-radius: 100%;
+    margin: 40px;
+  }
+  .radial-01 p {
+      position: absolute;
+      left: -25px;
+      bottom: -55px;
+      z-index: 50;
+      width: 150px;
+  }
+  .radial-01 .radial-01-number {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding-top: 41px;
+      z-index: 20;
+  }
+  .radial-01 .radial-01-number {
+    font-size: 30px;
+    padding-top: 32px;
+  }
+  .radial-01 .radial-01-number .radial-01-syb {
+    font-size: 20px;
+  }
+  .radial-01 > span.radial-01-border-r:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #ccc;
+    border-radius: 100%;
+    z-index: 5;
+  }
+  .radial-01 > span.radial-01-border-r:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #008cba;
+    border-radius: 100%;
+    z-index: 10;
+    clip: rect(0px,120px,120px,60px);
+  }
+  .radial-01 > span.radial-01-border-l:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #ccc;
+    border-radius: 100%;
+    z-index: 5;
+  }
+  .radial-three-quarters > span.radial-01-border-l:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #008cba;
+    border-radius: 100%;
+    z-index: 10;
+    clip: rect(60px,120px,120px,0px);
+  }
+  
+  .radial-whole > span.radial-01-border-l:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #008cba;
+    border-radius: 100%;
+    z-index: 10;
+    clip: rect(0px,120px,120px,0px);
+  }
+  
+  .radial-ninty > span.radial-01-border-l:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #008cba;
+    border-radius: 100%;
+    z-index: 10;
+    clip: rect(60px,120px,120px,0px);
+    transform: rotate(60deg);
+  }
+  
+  .pbar{
+    display: block;
+  }
+
+  .pbar2{
+    display: none;
+  }
+  .btns{
+    display: none;
+  }
+  @keyframes blink {
+    0%, 100% {
+      background: var(--teal);
+    }
+    40%, 50% {
+      background: transparent;
+    }
+  }
+  
+  #button{
+    position: fixed;
+  }
+
+  .edu{
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    height:300px ;
+    width: 700px;
+    border-radius: 30px;
+    margin-right: 28px;
+  }
+  .wk{
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    height: 300px;
+    width: 700px;
+    border-radius: 30px;
+    margin-left: 28px;
+  }
+
+.edu-wk{
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+}
+.edu-wk-txt{
+  padding: 20px;
+}
+
+.stf{fill-rule:evenodd;clip-rule:evenodd;fill:#ee5c50;}
+.sts{fill-rule:evenodd;clip-rule:evenodd;fill:#63c83d;}
+.stt{fill-rule:evenodd;clip-rule:evenodd;fill:#f5c033;}
+.dots{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 30px;
+}
+.dots > svg{
+    padding: 3px;
+    height: 20px;
+}
+
+.up-btn{
+  rotate: -90deg;
+  margin-left: 80%;
+  position: fixed;
+ margin-left: 95%;
+ margin-top: 600px;
+}
+.up-btn > span{
+font-size: 4rem;
+color:#f5c033;
+
+}
+
+.projects{
+
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    height: 500px;
+    width: 1300px;
+    border-radius: 30px;
+    margin-left: 110px;
+  margin-top: 50px;
+}
+
+.main-block{
+  display: flex;
+}
+    
+.project-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.contact{
+
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 700px;
+  width: 1300px;
+  border-radius: 30px;
+  margin-left: 110px;
+margin-top: 50px;
+}
+.forms-input{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 96%;
+ 
+}
+.contact-btn{
+  padding: 10px;
+  border-radius: 10px;
+
+  display: block;
+  margin-left: 45%;
+  margin-right: 50%;
+  margin-top: 20px;
+width: 100px;
+height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+
+}
+
+footer{
+  background-color: #282828;
+  color: #fff;
+  width: auto;
+}
+
+
+@media (max-width:990px){
+  
+.part2{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 4500px;
+  width: 100vw;
+}
+  .pbar{
+    display: none;
+  }
+  .pbar2{
+    display: block;
+    
+  }
+  .progress{
+    margin: 30px;
+  }
+  .logos > .btn{
+    display: none;
+  }
+  .btns{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .skills{
+    height: 800px;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+  margin-right: 10px;
+    margin-top: 20px;
+
+  }
+
+  .edu{
+    height:400px ;
+    width: auto;
+    border-radius: 30px;
+margin-right: 0;
+margin-bottom: 20px;
+  }
+  .wk{
+   
+    height: 400px;
+    width: auto;
+   margin-left: 0;
+margin-top: 20px;
+  }
+
+.edu-wk{
+  margin-top: 50px;
+  height: auto;
+  display: block;
+}
+.edu-wk-txt{
+  padding: 20px;
+}
+.up-btn{
+  rotate: -90deg;
+  position: fixed;
+ margin-left: 85%;
+ margin-top: 600px;
+}
+.up-btn > span{
+font-size: 3rem;
+color:#f5c033;
+
+}
+.projects{
+
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 900px;
+  width: auto;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+margin-top: 50px;
+display: block;
+}
+.project-main-title{
+  margin-left: 10px;
+}
+  .main-block{
+    display: block;
+  }
+  .main-block > div{
+   
+display: block;
+
+
+  }
+  .img-div-project{
+height: 250px;
+  }
+  .img-div-project > img{
+    height: 190px;
+    width: 340px;
+  }
+.project-title{
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+}
+.contact{
+
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 700px;
+  width: auto;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+margin-top: 50px;
+}
+.forms-input{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 90%;
+ 
+}
+
+.contact-btn{
+
+
+  display: block;
+  margin-left: 40%;
+  margin-right: 50%;
+
+
+}
+}
